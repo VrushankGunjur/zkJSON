@@ -1,0 +1,11 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "jsonv-program"
+edition = "2021"
+
+[dependencies]
+json = "0.12.4"
+serde_json = "1.0.115"
+sha2 = "0.10"
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
